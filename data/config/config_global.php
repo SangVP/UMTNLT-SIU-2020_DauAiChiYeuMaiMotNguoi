@@ -5,7 +5,7 @@
  * @Author VINADES.,JSC <contact@vinades.vn>
  * @Copyright (C) 2020 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Wed, 02 Dec 2020 02:15:30 GMT
+ * @Createdate Wed, 02 Dec 2020 03:32:29 GMT
  */
 
 if (!defined('NV_MAINFILE')) {
@@ -52,7 +52,7 @@ $global_config['dump_autobackup']=1;
 $global_config['dump_backup_day']=30;
 $global_config['dump_backup_ext']='gz';
 $global_config['dump_interval']=1;
-$global_config['error_send_email']='webmaster@localhost';
+$global_config['error_send_email']='';
 $global_config['error_set_logs']=1;
 $global_config['file_allowed_ext']=['adobe','archives','audio','documents','flash','images','real','video'];
 $global_config['forbid_extensions']=['php','php3','php4','php5','phtml','inc'];
@@ -62,13 +62,13 @@ $global_config['ftp_path']='/';
 $global_config['ftp_port']=21;
 $global_config['ftp_server']='localhost';
 $global_config['ftp_user_name']='';
-$global_config['ftp_user_pass']='R9ID74sL9jh8z9PpsKCy9Q,,';
+$global_config['ftp_user_pass']='fqMM6c9-eftDkI3IEEq9Nw,,';
 $global_config['gfx_chk']=3;
 $global_config['gzip_method']=1;
 $global_config['is_flood_blocker']=1;
 $global_config['is_login_blocker']=1;
 $global_config['lang_geo']=0;
-$global_config['lang_multi']=0;
+$global_config['lang_multi']=1;
 $global_config['login_number_tracking']=5;
 $global_config['login_time_ban']=30;
 $global_config['login_time_tracking']=5;
@@ -89,15 +89,15 @@ $global_config['recaptcha_type']='image';
 $global_config['rewrite_enable']=1;
 $global_config['rewrite_endurl']='/';
 $global_config['rewrite_exturl']='.html';
-$global_config['rewrite_op_mod']='news';
-$global_config['rewrite_optional']=1;
-$global_config['session_prefix']='nv4s_c15OL6';
+$global_config['rewrite_op_mod']='';
+$global_config['rewrite_optional']=0;
+$global_config['session_prefix']='nv4s_z112q4';
 $global_config['site_keywords']='NukeViet, portal, mysql, php';
 $global_config['site_lang']='vi';
 $global_config['site_timezone']='byCountry';
 $global_config['spadmin_add_admin']=1;
 $global_config['str_referer_blocker']=0;
-$global_config['timestamp']=1606875239;
+$global_config['timestamp']=1606875104;
 $global_config['two_step_verification']=0;
 $global_config['upload_alt_require']=1;
 $global_config['upload_auto_alt']=1;

@@ -5,7 +5,7 @@
  * @Author VINADES.,JSC <contact@vinades.vn>
  * @Copyright (C) 2020 VINADES.,JSC. All rights reserved
  * @License GNU/GPL version 2 or any later version
- * @Createdate Wed, 02 Dec 2020 02:15:30 GMT
+ * @Createdate Wed, 02 Dec 2020 02:13:19 GMT
  */
 
 if (!defined('NV_MAINFILE')) {
@@ -27,7 +27,7 @@ $db_config['prefix'] = 'nv4';
 $global_config['site_domain'] = '';
 $global_config['name_show'] = 0;
 $global_config['idsite'] = 0;
-$global_config['sitekey'] = '999145e0f333ed64b5468f00b9027d13';// Do not change sitekey!
+$global_config['sitekey'] = '6376a8392fe687c766f6d264eaa1dbe0';// Do not change sitekey!
 $global_config['hashprefix'] = '{SSHA512}';
 $global_config['cached'] = 'files';
 $global_config['session_handler'] = 'files';
